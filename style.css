@@ -1,0 +1,42 @@
+#col-container {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#row-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+gradio-app{
+  background: rgb(153,0,255);
+  background-image: radial-gradient(circle, rgba(153,0,255,1) 0%, rgba(9,15,121,1) 96%, rgba(2,0,36,1) 100%) !important;
+  height: 100%;
+  width: 100%;
+}
+.leftimage .rightimage{
+  float:left;
+  filter: drop-shadow(20px 20px 10px white);
+}
+.leftimage{
+  padding-top:40px;
+  margin-left:310px;
+}
+.rightimage{
+  padding-top:40px;
+  margin-right:320px;
+}
+a,
+a:hover,
+a:visited {
+  text-decoration-line: underline;
+  font-weight: 600;
+  color: #1f2937 !important;
+}
+
+.dark a,
+.dark a:hover,
+.dark a:visited {
+  color: #f3f4f6 !important;
+}

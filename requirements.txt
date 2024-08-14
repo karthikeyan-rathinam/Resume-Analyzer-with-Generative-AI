@@ -1,0 +1,5 @@
+openai
+gradio==3.36.1
+PyPDF2==2.12.1
+plotly
+plotly-express
